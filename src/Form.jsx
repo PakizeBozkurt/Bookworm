@@ -8,7 +8,7 @@ function Form(props) {
       {props.isRegistered === false ? (
         <input type="password" placeholder="Confirm Password" />
       ) : null}
-
+                              //Ternary oprt. 
       <button type="submit">{props.isRegistered ? "Login" : "Register"}</button>
     </form>
   );
